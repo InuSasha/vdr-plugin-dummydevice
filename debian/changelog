@@ -1,0 +1,6 @@
+vdr-plugin-dummydevice (2.0.0-1) unstable; urgency=low
+
+  * initial checkin
+  * Standards-Version: 3.9.6
+
+ -- Sascha Kuehndel <dev@inusasha.de>  Sat, 05 Mar 2016 20:21:23 +0200

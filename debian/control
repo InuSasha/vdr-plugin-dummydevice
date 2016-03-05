@@ -1,0 +1,19 @@
+Source: vdr-plugin-dummydevice
+Section: video
+Priority: extra
+Maintainer: Sascha Kuehndel <dev@inusasha.de>
+Uploaders: Sascha Kuehndel <dev@inusasha.de>
+Build-Depends: debhelper (>= 9), vdr-dev (>= 2.2.0), pkg-config, gettext, pkg-config
+Standards-Version: 3.9.6
+Homepage: http://www.vdr-wiki.de/wiki/index.php/Dummydevice-plugin
+Vcs-Git: https://github.com/InuSasha/vdr-plugin-dummydevice.git
+Vcs-Browser: https://github.com/InuSasha/vdr-plugin-dummydevice
+
+Package: vdr-plugin-dummydevice
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${vdr:Depends}
+Description: Dieses Plugin wird vom VDR als Ausgabegerät erkannt.
+ Dieses Plugin wird für Rechner benötigt, die als reiner Aufnahmeserver mit Budget Karten laufen 
+ sollen. Es wird hier nichts gestreamt oder dergleichen. Daher gibt es auch kein Livebild. Der 
+ Aufnahmeserver kann dann über vdradmin oder das remoteplugin ferngesteuert werden. Die Aufnahmen 
+ kann man sich dann über NFS mounten und einem Client zur Verfügung stellen.
