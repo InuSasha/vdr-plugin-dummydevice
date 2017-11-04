@@ -1,0 +1,12 @@
+debian/debhelper-build-stamp
+.dependencies
+debian/.debhelper
+debian/files
+debian/vdr-plugin-dummydevice.debhelper.log
+debian/vdr-plugin-dummydevice.postinst.debhelper
+debian/vdr-plugin-dummydevice.postrm.debhelper
+debian/vdr-plugin-dummydevice.preinst.debhelper
+debian/vdr-plugin-dummydevice.substvars
+debian/vdr-plugin-dummydevice
+*.o
+*.so
