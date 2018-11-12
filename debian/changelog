@@ -1,4 +1,4 @@
-vdr-plugin-dummydevice (2.0.0-2~abpo.1) unstable; urgency=low
+vdr-plugin-dummydevice (2.0.0-3~abpo.1) unstable; urgency=low
 
   * rebuild for vdr 2.4 from abpo-stretch
 
