@@ -1,3 +1,10 @@
+vdr-plugin-dummydevice (2.0.0-2~abpo.1) unstable; urgency=low
+
+  * rebuild for vdr 2.4 from abpo-stretch
+
+ -- Sascha Kuehndel <dev@inusasha.de>  Mon, 12 Nov 2018 22:36:00 +0100
+
+
 vdr-plugin-dummydevice (2.0.0-2) unstable; urgency=low
 
   * rebuild for stretch
